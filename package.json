@@ -1,0 +1,44 @@
+{
+  "name": "shahibzadakhan.com",
+  "version": "0.2.1",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "ajv": "^8.17.1",
+    "cross-env": "^7.0.3",
+    "immutable": "^4.3.4",
+    "moment": "^2.30.1",
+    "prettier": "^3.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga": "^3.3.1",
+    "react-player": "^2.16.0",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "react-transition-group": "^4.4.5",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "scroll-to-element": "^2.0.0",
+    "three": "^0.159.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "node ./updateBuild.js && cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "fix": "prettier --write \"src/**/*.{js,jsx}\""
+  },
+  "browserslist": [
+    "Chrome >= 60",
+    "Safari >= 11",
+    "iOS >= 11",
+    "Firefox >= 60",
+    "Edge >= 16"
+  ],
+  "buildDate": 1623090511777
+}
